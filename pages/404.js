@@ -1,6 +1,12 @@
 import Link from 'next/link'
+import {useEffect} from 'react'
+import {useRouter} from 'next/router'
 
 const NotFound = () => {
+
+    useEffect(()=>{
+      console.log('use effect run')
+    },[])
     return (  
         <div className="not-found">
             <h1>Oooops...</h1>
