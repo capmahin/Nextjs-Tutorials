@@ -12,6 +12,7 @@ export default function Home() {
     <>
     <Head>
         <title>Ninja List | Home</title>
+        <meta name="keywords" content="ninjas"></meta>
     </Head>
     <div >
       
