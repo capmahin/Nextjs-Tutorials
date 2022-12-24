@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
     <Head>
-
+        <title>Ninja List | Home</title>
     </Head>
     <div >
       
