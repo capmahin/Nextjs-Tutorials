@@ -43,7 +43,7 @@ export default function Home() {
         {state.loading ? (
           <ImpulseSpinner color="#a83254" />
         ) : (
-          <button onClick={() => fetchData()}>Click me to fetch data</button>
+          <button className={styles.btn} onClick={() => fetchData()}>Click me to fetch data</button>
         )}
 
         <ul>
